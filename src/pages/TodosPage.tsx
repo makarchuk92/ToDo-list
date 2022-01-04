@@ -20,7 +20,7 @@ export const TodosPage: React.FunctionComponent = () => {
      completed: false
    }
    setTodo(prev => [newTodo, ...todo])
-      setTodo('')
+     
  } 
  
    const toggleHandler = (id: number) => {
